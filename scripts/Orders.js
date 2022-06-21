@@ -18,7 +18,7 @@ const findProduct = (order, allProducts) => {
         }
     }
 
-    return orderProduct
+    return orderProduct //this is a very elaborated function to help understand whats going on.
 }
 
 // Function whose responsibility is to find the employee for an order
@@ -30,7 +30,7 @@ const findEmployee = (order, allEmployees) => {
         
         if (employee.id === order.employeeId) {
 
-            return employee
+            return employee //this is exactly the same as the one above... just simpler syntax.
 
             
         }
